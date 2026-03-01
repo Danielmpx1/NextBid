@@ -4,7 +4,6 @@ No âmbito do desenvolvimento do projeto NextBid, assumi a responsabilidade por 
 
 No Project Charter, trabalhei na definição formal dos objetivos do projeto, identificação de stakeholders e alinhamento das expectativas gerais, garantindo que a visão do NextBid estivesse documentada de forma clara e rigorosa. Complementarmente, desenvolvi a WBS, onde decompus o projeto em pacotes de trabalho manejáveis. Esta estrutura foi essencial para organizar a hierarquia das tarefas e assegurar que todos os entregáveis, desde a base de dados até à interface do utilizador, estivessem devidamente mapeados.
 
-Na vertente técnica, colaborei na secção de Programação Web, focando-me na arquitetura tecnológica da plataforma. Trabalhei na definição de como a interface deve interagir com o backend para proporcionar uma experiência fluida de licitação em tempo real. Além disso, na componente de Estatística, ajudei a estruturar a lógica de análise de dados que permitirá ao sistema gerar métricas relevantes, como a evolução de preços dos leilões e o comportamento dos utilizadores, transformando dados brutos em informação útil para a plataforma.
 ---
 
 # Avaliação Crítica Pessoal

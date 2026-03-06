@@ -15,13 +15,15 @@
 
 ---
 
-## 💡 3. Proposta inicial
+## 💡 1. Introdução
 
-O presente projeto consiste no desenvolvimento de uma plataforma web de leilões online a nível nacional, permitindo a utilizadores comprar, vender e licitar produtos de forma simples e segura. O sistema terá como objetivo criar uma experiência dinâmica, interativa e competitiva, combinando funcionalidades tradicionais de leilão com elementos de gamificação.
-A plataforma permitirá que cada produto colocado em leilão tenha localização associada, sendo visualizado num mapa interativo, facilitando a identificação geográfica do item e promovendo transparência nas transações.
-Além do sistema de licitação em tempo real, o site incluirá funcionalidades interativas, como uma roleta digital onde os utilizadores poderão girar para ganhar prémios (ex.: descontos, créditos para licitações, benefícios temporários). Será também desenvolvido um segundo jogo (a definir), com o objetivo de aumentar o envolvimento dos utilizadores e incentivar a utilização frequente da plataforma.
-O sistema incluirá gestão de utilizadores, controlo de leilões ativos, histórico de licitações, notificações automáticas e mecanismos de segurança. A arquitetura será composta por base de dados para armazenamento de utilizadores e produtos, servidor backend para gestão das regras do leilão e interface web para interação com o utilizador.
-Este projeto combina algoritmos de licitação, estruturas de dados para gestão dinâmica de ofertas e técnicas de programação orientada a objetos, aplicando conceitos da unidade curricular num contexto prático e comercial.
+O comércio eletrónico tem assumido um papel cada vez mais relevante na economia digital, permitindo que consumidores e vendedores realizem transações de forma rápida, acessível e global. Entre os diversos modelos de comércio online, as plataformas de leilões destacam-se por promoverem um sistema dinâmico de compra e venda, no qual o valor final dos produtos é determinado através da competição entre licitadores.
+
+Apesar da existência de diversas plataformas de leilões no mercado, muitas apresentam funcionalidades relativamente tradicionais, centradas apenas na realização de transações comerciais. Neste contexto, surge a oportunidade de desenvolver soluções que integrem elementos inovadores, como mecanismos de gamificação e funcionalidades baseadas em geolocalização, capazes de aumentar o envolvimento dos utilizadores e enriquecer a experiência de utilização.
+
+O projeto NextBid tem como objetivo o desenvolvimento de uma plataforma web de leilões online que combina o modelo tradicional de licitação com funcionalidades interativas e geográficas. A plataforma permitirá a criação e gestão de leilões, a realização de licitações em tempo real e a visualização da localização dos produtos através de um mapa interativo, complementando estas funcionalidades com elementos de gamificação, como roleta de prémios e jogos adicionais.
+
+Desta forma, o projeto procura desenvolver uma solução tecnológica que não apenas suporte a gestão eficiente de leilões online, mas que também promova uma experiência de utilização mais interativa, dinâmica e centrada no utilizador.
 
 ---
 
@@ -29,8 +31,6 @@ Este projeto combina algoritmos de licitação, estruturas de dados para gestão
 
 - Criar uma plataforma de leilões inovadora que permita comprar e vender produtos de forma dinâmica e interativa.
 - Permitir que qualquer produto possa ser leiloado e que o maior lance seja o vencedor.
-- Implementar desempate por sorteio (moeda ao ar) em caso de empate nos lances.
-- Introduzir uma roleta diária com prémios de baixo valor ou pequenas chances de ganhar, incentivando visitas frequentes.
 - Desenvolver uma mecânica de “caça ao tesouro” onde produtos são colocados aleatoriamente no mapa e o primeiro a chegar fisicamente recebe o produto.
 - Integrar geolocalização para definir a localização dos produtos e facilitar a entrega pelos vendedores.
 - Garantir que os produtos possam ser entregues presencialmente ou enviados com segurança ao comprador.
@@ -122,7 +122,7 @@ Objetivo: Sistema geográfico funcional.
 
 ---
 
-Semana 9 – Desenvolvimento da Roleta
+Semana 9 – Desenvolvimento da Caça ou tesouro
 Criação da roleta digital
 Algoritmo de geração aleatória
 Definição de probabilidades
@@ -226,8 +226,7 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 | 02 | Licitação válida | Utilizador licita 16€ quando valor atual do produto é 15€ | Lance aceite e atualizado para todos os restantes participantes |
 | 03 | Licitação inválida | Utilizador tenta licitar 14€ quando atual é 15€ | Sistema rejeita lance |
 | 04 | Fim automático | Aguardar tempo terminar | Sistema fecha leilão e define vencedor com a ultima licitação mais elevada |
-| 05 | Empate | Dois utilizadores licitam o mesmo valor final depois do Tempo do leilão acabar | Sistema executa sorteio **(moeda ao ar)** |
-| 06 | Geolocalização do produto leiloado | Ao ganhar o utilizador vencedor tem direito a observar o estado do seu produto em tempo real atravez de um sensor de localização | Sistema mostra o estado da encomenda so seu produto leiloado | 
+| 05 | Geolocalização do produto leiloado | Ao ganhar o utilizador vencedor tem direito a observar o estado do seu produto em tempo real atravez de um sensor de localização | Sistema mostra o estado da encomenda so seu produto leiloado | 
 
 ---
 ##  📌 9. Requesitos 
@@ -238,11 +237,9 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 - Permitir aos utilizadores licitar em tempo real em leilões ativos.
 - Validar que cada nova licitação é superior ao valor atual do leilão.
 - Encerrar automaticamente o leilão quando o tempo expira e definir o vencedor.
-- Resolver empates de licitação através de sorteio (moeda ao ar).
 - Apresentar histórico de licitações por produto.
 - Integrar um mapa interativo com a localização dos produtos leiloados.
-- Implementar uma roleta digital diária com prémios (créditos, descontos, etc.).
-- Disponibilizar um segundo jogo interativo com sistema de recompensas.
+- Disponibilizar um jogo interativo com sistema de recompensas.
 - Permitir visualização do estado da encomenda através de dados de geolocalização simulados.
 - Notificar automaticamente o utilizador vencedor do leilão.
 

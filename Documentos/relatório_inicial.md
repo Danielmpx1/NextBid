@@ -1,4 +1,4 @@
-## 📋 1. Identificação
+## 1. Identificação
 - Universidade: Universidade Europeia  
 - Faculdade: IADE  
 - Elementos do grupo: Rodrigo Canto, Rodrigo Daibert, Marco Fonseca e Daniel Paulo
@@ -7,7 +7,7 @@
   
 ---
 
-## 👥 2. Distribuição das principais tarefas
+## 2. Distribuição das principais tarefas
 
 | **Tarefas Principais** | **Rodrigo Canto**| **Rodrigo Daibert** | **Marco Fonseca** | **Daniel Paulo** | **Total** |
 |----------------------|-------------------|----------------------|-------------------|------------------|-----------|
@@ -15,7 +15,7 @@
 
 ---
 
-## 💡 3. Introdução
+## 3. Introdução
 
 O comércio eletrónico tem assumido um papel cada vez mais relevante na economia digital, permitindo que consumidores e vendedores realizem transações de forma rápida, acessível e global. Entre os diversos modelos de comércio online, as plataformas de leilões destacam-se por promoverem um sistema dinâmico de compra e venda, no qual o valor final dos produtos é determinado através da competição entre licitadores.
 
@@ -27,7 +27,7 @@ Desta forma, o projeto procura desenvolver uma solução tecnológica que não a
 
 ---
 
-## 🎯 4. Objetivos
+## 4. Objetivos
 
 - Criar uma plataforma de leilões inovadora que permita comprar e vender produtos de forma dinâmica e interativa.
 - Permitir que qualquer produto possa ser leiloado e que o maior lance seja o vencedor.
@@ -38,7 +38,7 @@ Desta forma, o projeto procura desenvolver uma solução tecnológica que não a
 
 ---
 
-## 📅 5. Plano de Trabalhos
+## 5. Plano de Trabalhos
 
 ## Leilão
 O presente plano de trabalho organiza o desenvolvimento do sistema ao longo de 13 semanas, permitindo uma evolução estruturada desde a análise inicial até à implementação final, testes e apresentação. A divisão por fases garante controlo de progresso, qualidade técnica e cumprimento de prazos.
@@ -170,7 +170,7 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 
 ---
 
-## 👥 6. Público-alvo
+## 6. Público-alvo
 
 - Jovens
 - Adultos
@@ -179,7 +179,7 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 
 ---
 
-## 🔍 7. Pesquisa de mercado
+## 7. Pesquisa de mercado
 
 ### eBay
 | 🟢 Semelhanças | 🔴 Diferenças |
@@ -214,7 +214,7 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 
 ---
 
-## 🧪 8. Guiões de teste
+## 8. Guiões de teste
 | ID | Cenário | Procedimento | Resultado Esperado |
 |---|---|---|---|
 | 01 | Criar Leilão | Criar produto com preço base 5€ | Produto aparece na lista de leilões ativos | 
@@ -224,7 +224,7 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 | 05 | Geolocalização do produto leiloado | Ao ganhar o utilizador vencedor tem direito a observar o estado do seu produto em tempo real atravez de um sensor de localização | Sistema mostra o estado da encomenda so seu produto leiloado | 
 
 ---
-##  📌 9. Requesitos 
+##  9. Requesitos 
 
 ### 9.1 Requisitos Funcionais
 - Permitir registo e autenticação de utilizadores na plataforma.
@@ -257,7 +257,7 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 
 ---
 
-## 📜 10. Project Charter
+## 10. Project Charter
 Project Charter: NextBid
 
 
@@ -280,7 +280,7 @@ Análise de Outliers: Identificar licitações fraudulentas (bots) através de d
 
 ---
 
-## 🏗️ 11. WBS (Work Breakdown Structure)
+## 11. WBS (Work Breakdown Structure)
 # Estrutura do Projeto
 
 ## 1. Gestão do Projeto
@@ -315,13 +315,13 @@ Análise de Outliers: Identificar licitações fraudulentas (bots) através de d
 
 ---
 
-## 🏁 12. Conclusão
+## 12. Conclusão
 
 O projeto **NextBid** propõe o desenvolvimento de uma plataforma web de leilões online que combina mecanismos tradicionais de licitação com recursos de gamificação e geolocalização. Isso cria uma experiência interativa, competitiva e centrada no usuário. A plataforma pretende se destacar das soluções existentes no mercado ao integrar algoritmos de licitação em tempo real, sistemas de autenticação segura, mapas interativos e jogos como a caça ao tesouro. A arquitetura definida, que utiliza PHP, um banco de dados relacional e dados em formato JSON, garante uma estrutura modular e escalável adequada ao contexto acadêmico do projeto. A divisão do desenvolvimento em fases semanais permite uma evolução gradual e controlada. Isso assegura que cada componente, desde a gestão de usuários até a integração do SIG com Leaflet.js, seja implementado, testado e otimizado de forma organizada. Do ponto de vista acadêmico, o projeto está diretamente relacionado às unidades curriculares de Programação Web, Algoritmos e Estruturas de Dados, Sistemas de Informação Geográfica, Estatística e Interfaces e Usabilidade. Ele aplica conceitos teóricos em um cenário prático e comercial. Essa integração de diferentes áreas demonstra a capacidade de criar e desenvolver uma solução tecnológica completa, funcional e que atende aos objetivos do curso.
 
 ---
 
-## 📚 13. Bibliografia
+## 13. Bibliografia
 
 eBay. (n.d.). *eBay: Buy & Sell Electronics, Cars, Fashion, Collectibles & More*. https://www.ebay.com
 

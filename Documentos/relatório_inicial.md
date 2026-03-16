@@ -234,7 +234,7 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 - Encerrar automaticamente o leilão quando o tempo expira e definir o vencedor.
 - Apresentar histórico de licitações por produto.
 - Integrar um mapa interativo com a localização dos produtos leiloados.
-- Disponibilizar um jogo interativo com sistema de recompensas.
+- Disponibilizar um jogo interativo com sistema de recompensas (caça ao tesouro).
 - Permitir visualização do estado da encomenda através de dados de geolocalização simulados.
 - Notificar automaticamente o utilizador vencedor do leilão.
 

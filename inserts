@@ -1,3 +1,14 @@
+#categories
+
+insert into categories (cat_name) values ('Eletrónica');          # cat_id = 1
+insert into categories (cat_name) values ('Moda');                # cat_id = 2
+insert into categories (cat_name) values ('Casa');                # cat_id = 3
+insert into categories (cat_name) values ('Desporto');            # cat_id = 4
+insert into categories (cat_name) values ('Colecionáveis');       # cat_id = 5
+insert into categories (cat_name) values ('Videojogos');          # cat_id = 6
+insert into categories (cat_name) values ('Automóveis');          # cat_id = 7
+insert into categories (cat_name) values ('Livros');              # cat_id = 8
+
 #users
 
 insert into users (usr_name, usr_email, usr_password, usr_gender, usr_age, usr_photo, usr_bio, usr_xp, usr_role, usr_created_at)
@@ -57,33 +68,9 @@ insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_con
 values ('Livro Java', 'Livro técnico de programação em Java.', 8, 1, 'new', 25.00, 'Aveiro', 40.6405000, -8.6538000, 'active', str_to_date('2025.12.27','%Y.%m.%d'), str_to_date('2025.12.15','%Y.%m.%d'));      # prd_id = 7
 
 insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_condition, prd_start_price, prd_location, prd_latitude, prd_longitude, prd_status, prd_ends_at, prd_created_at)
-values ('Jantes 18 Polegadas', 'Conjunto de 4 jantes em bom estado.', 7, 3, 'used', 300.00, 'Sintra', 38.8029000, -9.3817000, 'active', str_to_date('2025.12.
-
-insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_condition, prd_start_price, prd_location, prd_latitude, prd_longitude, prd_status, prd_ends_at, prd_created_at)
-values ('iPhone 13', 'iPhone 13 em excelente estado, 128GB.', 1, 1, 'used', 450.00, 'Lisboa', 38.7223000, -9.1393000, 'active', str_to_date('2025.12.20','%Y.%m.%d'), str_to_date('2025.12.10','%Y.%m.%d'));   # prd_id = 1
-
-insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_condition, prd_start_price, prd_location, prd_latitude, prd_longitude, prd_status, prd_ends_at, prd_created_at)
-values ('PlayStation 5', 'Consola PS5 com comando incluído.', 6, 3, 'used', 380.00, 'Almada', 38.6800000, -9.1580000, 'active', str_to_date('2025.12.21','%Y.%m.%d'), str_to_date('2025.12.11','%Y.%m.%d'));    # prd_id = 2
-
-insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_condition, prd_start_price, prd_location, prd_latitude, prd_longitude, prd_status, prd_ends_at, prd_created_at)
-values ('Casaco de Pele', 'Casaco em muito bom estado, tamanho M.', 2, 5, 'used', 60.00, 'Porto', 41.1579000, -8.6291000, 'active', str_to_date('2025.12.22','%Y.%m.%d'), str_to_date('2025.12.12','%Y.%m.%d')); # prd_id = 3
-
-insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_condition, prd_start_price, prd_location, prd_latitude, prd_longitude, prd_status, prd_ends_at, prd_created_at)
-values ('Bicicleta BTT', 'Bicicleta de montanha com pouco uso.', 4, 1, 'used', 150.00, 'Braga', 41.5454000, -8.4265000, 'active', str_to_date('2025.12.24','%Y.%m.%d'), str_to_date('2025.12.12','%Y.%m.%d'));   # prd_id = 4
-
-insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_condition, prd_start_price, prd_location, prd_latitude, prd_longitude, prd_status, prd_ends_at, prd_created_at)
-values ('Relógio Vintage', 'Relógio colecionável dos anos 80.', 5, 3, 'used', 90.00, 'Coimbra', 40.2033000, -8.4103000, 'active', str_to_date('2025.12.23','%Y.%m.%d'), str_to_date('2025.12.13','%Y.%m.%d'));  # prd_id = 5
-
-insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_condition, prd_start_price, prd_location, prd_latitude, prd_longitude, prd_status, prd_ends_at, prd_created_at)
-values ('Mesa de Jantar', 'Mesa de madeira para 6 pessoas.', 3, 5, 'used', 120.00, 'Setúbal', 38.5244000, -8.8882000, 'active', str_to_date('2025.12.26','%Y.%m.%d'), str_to_date('2025.12.14','%Y.%m.%d'));     # prd_id = 6
-
-insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_condition, prd_start_price, prd_location, prd_latitude, prd_longitude, prd_status, prd_ends_at, prd_created_at)
-values ('Livro Java', 'Livro técnico de programação em Java.', 8, 1, 'new', 25.00, 'Aveiro', 40.6405000, -8.6538000, 'active', str_to_date('2025.12.27','%Y.%m.%d'), str_to_date('2025.12.15','%Y.%m.%d'));      # prd_id = 7
-
-insert into products (prd_name, prd_description, prd_cat_id, prd_usr_id, prd_condition, prd_start_price, prd_location, prd_latitude, prd_longitude, prd_status, prd_ends_at, prd_created_at)
 values ('Jantes 18 Polegadas', 'Conjunto de 4 jantes em bom estado.', 7, 3, 'used', 300.00, 'Sintra', 38.8029000, -9.3817000, 'active', str_to_date('2025.12.28','%Y.%m.%d'), str_to_date('2025.12.16','%Y.%m.%d')); # prd_id = 8
 
-#products_image
+#product_images
 
 insert into product_images (img_prd_id, img_path)
 values (1, 'iphone13_1.jpg');   # img_id = 1
@@ -98,39 +85,29 @@ insert into product_images (img_prd_id, img_path)
 values (2, 'ps5_2.jpg');        # img_id = 4
 
 insert into product_images (img_prd_id, img_path)
-values (3, 'casaco_1.jpg');     # img_id = 5
+values (3, 'casaco_pele_1.jpg'); # img_id = 5
 
 insert into product_images (img_prd_id, img_path)
-values (4, 'bicicleta_1.jpg');  # img_id = 6
+values (4, 'bicicleta_btt_1.jpg'); # img_id = 6
 
 insert into product_images (img_prd_id, img_path)
-values (4, 'bicicleta_2.jpg');  # img_id = 7
+values (4, 'bicicleta_btt_2.jpg'); # img_id = 7
 
 insert into product_images (img_prd_id, img_path)
-values (5, 'relogio_1.jpg');    # img_id = 8
+values (5, 'relogio_vintage_1.jpg'); # img_id = 8
 
 insert into product_images (img_prd_id, img_path)
-values (6, 'mesa_1.jpg');       # img_id = 9
+values (6, 'mesa_jantar_1.jpg'); # img_id = 9
 
 insert into product_images (img_prd_id, img_path)
 values (7, 'livro_java_1.jpg'); # img_id = 10
 
 insert into product_images (img_prd_id, img_path)
-values (8, 'jantes_1.jpg');     # img_id = 11
+values (8, 'jantes_18_1.jpg');  # img_id = 11
 
 insert into product_images (img_prd_id, img_path)
-values (8, 'jantes_2.jpg');     # img_id = 12
+values (8, 'jantes_18_2.jpg');  # img_id = 12
 
-#categories
-
-insert into categories (cat_name) values ('Eletrónica');          # cat_id = 1
-insert into categories (cat_name) values ('Moda');                # cat_id = 2
-insert into categories (cat_name) values ('Casa');                # cat_id = 3
-insert into categories (cat_name) values ('Desporto');            # cat_id = 4
-insert into categories (cat_name) values ('Colecionáveis');       # cat_id = 5
-insert into categories (cat_name) values ('Videojogos');          # cat_id = 6
-insert into categories (cat_name) values ('Automóveis');          # cat_id = 7
-insert into categories (cat_name) values ('Livros');              # cat_id = 8
 
 #bids
 

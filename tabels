@@ -10,7 +10,7 @@ create table users (
     usr_photo      varchar(255),
     usr_bio        text,
     usr_xp         int not null default 0,            # user xp
-    usr_role       enum('seller','buyer') not null default 'buyer',
+    usr_role       enum('admin','normaluser'),
     usr_created_at datetime not null default current_timestamp,
     primary key (usr_id),
     unique key uq_users_email (usr_email)

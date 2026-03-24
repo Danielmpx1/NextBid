@@ -29,7 +29,7 @@ create table products (
     prd_description  text not null,
     prd_cat_id       int not null,                    # FK to categories
     prd_usr_id       int not null,                    # FK to users (seller)
-    prd_condition    enum('new','used') not null,
+    prd_condition    enum('very good','good', 'satisfactory', 'very used') not null,
     prd_start_price  decimal(10,2) not null,
     prd_location     varchar(120),
     prd_latitude     decimal(10,7),

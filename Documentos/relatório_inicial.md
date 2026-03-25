@@ -1,4 +1,4 @@
-## 📋 1. Identificação
+## 1. Identificação
 - Universidade: Universidade Europeia  
 - Faculdade: IADE  
 - Elementos do grupo: Rodrigo Canto, Rodrigo Daibert, Marco Fonseca e Daniel Paulo
@@ -7,7 +7,7 @@
   
 ---
 
-## 👥 2. Distribuição das principais tarefas
+## 2. Distribuição das principais tarefas
 
 | **Tarefas Principais** | **Rodrigo Canto**| **Rodrigo Daibert** | **Marco Fonseca** | **Daniel Paulo** | **Total** |
 |----------------------|-------------------|----------------------|-------------------|------------------|-----------|
@@ -15,22 +15,22 @@
 
 ---
 
-## 💡 3. Proposta inicial
+## 3. Introdução
 
-O presente projeto consiste no desenvolvimento de uma plataforma web de leilões online a nível nacional, permitindo a utilizadores comprar, vender e licitar produtos de forma simples e segura. O sistema terá como objetivo criar uma experiência dinâmica, interativa e competitiva, combinando funcionalidades tradicionais de leilão com elementos de gamificação.
-A plataforma permitirá que cada produto colocado em leilão tenha localização associada, sendo visualizado num mapa interativo, facilitando a identificação geográfica do item e promovendo transparência nas transações.
-Além do sistema de licitação em tempo real, o site incluirá funcionalidades interativas, como uma roleta digital onde os utilizadores poderão girar para ganhar prémios (ex.: descontos, créditos para licitações, benefícios temporários). Será também desenvolvido um segundo jogo (a definir), com o objetivo de aumentar o envolvimento dos utilizadores e incentivar a utilização frequente da plataforma.
-O sistema incluirá gestão de utilizadores, controlo de leilões ativos, histórico de licitações, notificações automáticas e mecanismos de segurança. A arquitetura será composta por base de dados para armazenamento de utilizadores e produtos, servidor backend para gestão das regras do leilão e interface web para interação com o utilizador.
-Este projeto combina algoritmos de licitação, estruturas de dados para gestão dinâmica de ofertas e técnicas de programação orientada a objetos, aplicando conceitos da unidade curricular num contexto prático e comercial.
+O comércio eletrónico tem assumido um papel cada vez mais relevante na economia digital, permitindo que consumidores e vendedores realizem transações de forma rápida, acessível e global. Entre os diversos modelos de comércio online, as plataformas de leilões destacam-se por promoverem um sistema dinâmico de compra e venda, no qual o valor final dos produtos é determinado através da competição entre licitadores.
+
+Apesar da existência de diversas plataformas de leilões no mercado, muitas apresentam funcionalidades relativamente tradicionais, centradas apenas na realização de transações comerciais. Neste contexto, surge a oportunidade de desenvolver soluções que integrem elementos inovadores, como mecanismos de gamificação e funcionalidades baseadas em geolocalização, capazes de aumentar o envolvimento dos utilizadores e enriquecer a experiência de utilização.
+
+O projeto NextBid tem como objetivo o desenvolvimento de uma plataforma web de leilões online que combina o modelo tradicional de licitação com funcionalidades interativas e geográficas. A plataforma permitirá a criação e gestão de leilões, a realização de licitações em tempo real e a visualização da localização dos produtos através de um mapa interativo, complementando estas funcionalidades com elementos de gamificação, como a caça ao tesouro.
+
+Desta forma, o projeto procura desenvolver uma solução tecnológica que não apenas suporte a gestão eficiente de leilões online, mas que também promova uma experiência de utilização mais interativa, dinâmica e centrada no utilizador.
 
 ---
 
-## 🎯 4. Objetivos
+## 4. Objetivos
 
 - Criar uma plataforma de leilões inovadora que permita comprar e vender produtos de forma dinâmica e interativa.
 - Permitir que qualquer produto possa ser leiloado e que o maior lance seja o vencedor.
-- Implementar desempate por sorteio (moeda ao ar) em caso de empate nos lances.
-- Introduzir uma roleta diária com prémios de baixo valor ou pequenas chances de ganhar, incentivando visitas frequentes.
 - Desenvolver uma mecânica de “caça ao tesouro” onde produtos são colocados aleatoriamente no mapa e o primeiro a chegar fisicamente recebe o produto.
 - Integrar geolocalização para definir a localização dos produtos e facilitar a entrega pelos vendedores.
 - Garantir que os produtos possam ser entregues presencialmente ou enviados com segurança ao comprador.
@@ -38,7 +38,7 @@ Este projeto combina algoritmos de licitação, estruturas de dados para gestão
 
 ---
 
-## 📅 5. Plano de Trabalhos
+## 5. Plano de Trabalhos
 
 ## Leilão
 O presente plano de trabalho organiza o desenvolvimento do sistema ao longo de 13 semanas, permitindo uma evolução estruturada desde a análise inicial até à implementação final, testes e apresentação. A divisão por fases garante controlo de progresso, qualidade técnica e cumprimento de prazos.
@@ -47,7 +47,7 @@ O presente plano de trabalho organiza o desenvolvimento do sistema ao longo de 1
 
 Semana 1 – Definição do Projeto
 Definição do conceito final da plataforma
-Identificação das funcionalidades principais (leilões, mapa, roleta, jogo extra)
+Identificação das funcionalidades principais (leilões, mapa, caça ao tesouro)
 Definição do público-alvo
 Distribuição inicial de tarefas pelo grupo
 Objetivo: Ter o projeto totalmente definido antes de começar a desenvolver.
@@ -122,11 +122,9 @@ Objetivo: Sistema geográfico funcional.
 
 ---
 
-Semana 9 – Desenvolvimento da Roleta
-Criação da roleta digital
+Semana 9 – Desenvolvimento da Caça ou tesouro
 Algoritmo de geração aleatória
 Definição de probabilidades
-Integração de prémios (créditos, descontos, etc.)
 Objetivo: Sistema de gamificação ativo.
 
 ---
@@ -172,7 +170,7 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 
 ---
 
-## 👥 6. Público-alvo
+## 6. Público-alvo
 
 - Jovens
 - Adultos
@@ -181,14 +179,14 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 
 ---
 
-## 🔍 7. Pesquisa de mercado
+## 7. Pesquisa de mercado
 
 ### eBay
 | 🟢 Semelhanças | 🔴 Diferenças |
 |---|---|
 | Plataforma de leilões online | Não possui roleta diária ou caça ao tesouro |
 | Permite vender qualquer produto | Não utiliza geolocalização para entrega presencial |
-| Sistema de lances competitivos | Não resolve empates por sorteio |
+| Sistema de lances competitivos | Não possui outro tipo de gamificação (Caça ao tesouro) |
 
 ---
 
@@ -197,7 +195,6 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 |---|---|
 | Venda de produtos variados | Não possui mecânicas de gamificação como roleta ou caça ao tesouro |
 | Permite contacto entre comprador e vendedor | Entrega tradicional, sem geolocalização para jogos interativos |
-| Plataforma popular na América Latina | Não tem desempate por sorteio em lances empatados |
 
 ---
 
@@ -206,7 +203,6 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 |---|---|
 | Sistema de leilões por lances | Não integra caça ao tesouro ou geolocalização |
 | Produtos variados | Não oferece roleta diária ou prémios surpresa |
-| Incentiva participação frequente | Empates não resolvidos por sorteio, lances continuam até final definido |
 
 ---
 
@@ -215,22 +211,20 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 |---|---|
 | Combina compras online com elementos locais | Menor variedade de produtos leiloados |
 | Alguns usam geolocalização para entregas | Não possui caça ao tesouro ou roleta diária |
-| Interação entre vendedor e comprador | Não tem desempates decididos por sorteio |
 
 ---
 
-## 🧪 8. Guiões de teste
+## 8. Guiões de teste
 | ID | Cenário | Procedimento | Resultado Esperado |
 |---|---|---|---|
 | 01 | Criar Leilão | Criar produto com preço base 5€ | Produto aparece na lista de leilões ativos | 
 | 02 | Licitação válida | Utilizador licita 16€ quando valor atual do produto é 15€ | Lance aceite e atualizado para todos os restantes participantes |
 | 03 | Licitação inválida | Utilizador tenta licitar 14€ quando atual é 15€ | Sistema rejeita lance |
 | 04 | Fim automático | Aguardar tempo terminar | Sistema fecha leilão e define vencedor com a ultima licitação mais elevada |
-| 05 | Empate | Dois utilizadores licitam o mesmo valor final depois do Tempo do leilão acabar | Sistema executa sorteio **(moeda ao ar)** |
-| 06 | Geolocalização do produto leiloado | Ao ganhar o utilizador vencedor tem direito a observar o estado do seu produto em tempo real atravez de um sensor de localização | Sistema mostra o estado da encomenda so seu produto leiloado | 
+| 05 | Geolocalização do produto leiloado | Ao ganhar o utilizador vencedor tem direito a observar o estado do seu produto em tempo real atravez de um sensor de localização | Sistema mostra o estado da encomenda so seu produto leiloado | 
 
 ---
-##  📌 9. Requesitos 
+##  9. Requesitos 
 
 ### 9.1 Requisitos Funcionais
 - Permitir registo e autenticação de utilizadores na plataforma.
@@ -238,11 +232,9 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 - Permitir aos utilizadores licitar em tempo real em leilões ativos.
 - Validar que cada nova licitação é superior ao valor atual do leilão.
 - Encerrar automaticamente o leilão quando o tempo expira e definir o vencedor.
-- Resolver empates de licitação através de sorteio (moeda ao ar).
 - Apresentar histórico de licitações por produto.
 - Integrar um mapa interativo com a localização dos produtos leiloados.
-- Implementar uma roleta digital diária com prémios (créditos, descontos, etc.).
-- Disponibilizar um segundo jogo interativo com sistema de recompensas.
+- Disponibilizar um jogo interativo com sistema de recompensas (caça ao tesouro).
 - Permitir visualização do estado da encomenda através de dados de geolocalização simulados.
 - Notificar automaticamente o utilizador vencedor do leilão.
 
@@ -265,7 +257,36 @@ Este plano de 13 semanas permite um desenvolvimento progressivo e estruturado do
 
 ---
 
-## 📜 10. Project Charter
+## 10. User Journey
+
+### 10.1 Cenário Principal – Participação num Leilão
+
+| Etapa | Ação do Utilizador | Resposta do Sistema | Experiência do Utilizador |
+|------|--------------------|---------------------|---------------------------|
+| 1 | Acede ao website NextBid | Página inicial é apresentada | Curiosidade sobre os leilões disponíveis |
+| 2 | Cria conta ou faz login | Sistema autentica o utilizador | Acesso à plataforma |
+| 3 | Explora a lista de leilões ativos | Sistema mostra produtos com preço atual e tempo restante | Interesse em encontrar um bom negócio |
+| 4 | Seleciona um produto | Página do leilão mostra detalhes, histórico de licitações e temporizador | Avalia se deve licitar |
+| 5 | Faz uma licitação | Sistema valida se o valor é superior ao atual | Expectativa de ganhar o leilão |
+| 6 | Outros utilizadores licitam | Sistema atualiza os lances em tempo real | Competição entre utilizadores |
+| 7 | O temporizador termina | Sistema fecha o leilão automaticamente | Suspense até ao resultado |
+| 8 | Utilizador vence o leilão | Sistema envia notificação ao vencedor | Satisfação por ganhar |
+| 9 | Utilizador visualiza localização do produto | Sistema mostra o produto no mapa | Preparação para receber ou recolher o produto |
+
+---
+
+### 10.2 Cenário Alternativo – Caça ao Tesouro
+
+| Etapa | Ação do Utilizador | Resposta do Sistema | Experiência |
+|------|--------------------|---------------------|-------------|
+| 1 | Utilizador abre o mapa | Sistema mostra itens escondidos na região | Curiosidade |
+| 2 | Seleciona um prémio disponível | Sistema mostra localização aproximada | Motivação para participar |
+| 3 | Utilizador desloca-se fisicamente até ao local | Sistema verifica geolocalização | Desafio |
+| 4 | Utilizador chega ao local correto | Sistema valida posição e atribui prémio | Recompensa |
+
+---
+
+## 11. Project Charter
 Project Charter: NextBid
 
 
@@ -288,7 +309,7 @@ Análise de Outliers: Identificar licitações fraudulentas (bots) através de d
 
 ---
 
-## 🏗️ 11. WBS (Work Breakdown Structure)
+## 12. WBS (Work Breakdown Structure)
 # Estrutura do Projeto
 
 ## 1. Gestão do Projeto
@@ -309,30 +330,27 @@ Análise de Outliers: Identificar licitações fraudulentas (bots) através de d
 ## 5. Frontend
 ### 5.1 - Layout HTML/CSS 
 
-## 6. Módulo Casino
-### 6.1 - Algoritmos de Slots e Roleta
-### 6.2 - Flip Coin e outros possíveis métodos
 
-## 7. Integração
-### 7.1 - Consumo de dados via Fetch e Lógica 
+## 6. Integração
+### 6.1 - Consumo de dados via Fetch e Lógica 
 
-## 8. Módulo SIG (Geosocial)
-### 8.1 - Integração com Leaflet.js
-### 8.2 - Geocodificação de endereços de vendedores
+## 7. Módulo SIG (Geosocial)
+### 7.1 - Integração com Leaflet.js
+### 7.2 - Geocodificação de endereços de vendedores
 
-## 9. Segurança e Testes
-### 9.1 - Sanitização de inputs e prevenção de XSS/SQLi
-### 9.2 - Testes unitários de lógica de saldo
+## 8. Segurança e Testes
+### 8.1 - Sanitização de inputs e prevenção de XSS/SQLi
+### 8.2 - Testes unitários de lógica de saldo
 
 ---
 
-## 🏁 12. Conclusão
+## 13. Conclusão
 
-O projeto **NextBid** propõe o desenvolvimento de uma plataforma web de leilões online que combina mecanismos tradicionais de licitação com recursos de gamificação e geolocalização. Isso cria uma experiência interativa, competitiva e centrada no usuário. A plataforma pretende se destacar das soluções existentes no mercado ao integrar algoritmos de licitação em tempo real, sistemas de autenticação segura, mapas interativos e jogos como roleta e moeda ao ar. A arquitetura definida, que utiliza PHP, um banco de dados relacional e dados em formato JSON, garante uma estrutura modular e escalável adequada ao contexto acadêmico do projeto. A divisão do desenvolvimento em fases semanais permite uma evolução gradual e controlada. Isso assegura que cada componente, desde a gestão de usuários até a integração do SIG com Leaflet.js, seja implementado, testado e otimizado de forma organizada. Do ponto de vista acadêmico, o projeto está diretamente relacionado às unidades curriculares de Programação Web, Algoritmos e Estruturas de Dados, Sistemas de Informação Geográfica, Estatística e Interfaces e Usabilidade. Ele aplica conceitos teóricos em um cenário prático e comercial. Essa integração de diferentes áreas demonstra a capacidade de criar e desenvolver uma solução tecnológica completa, funcional e que atende aos objetivos do curso.
+O projeto **NextBid** propõe o desenvolvimento de uma plataforma web de leilões online que combina mecanismos tradicionais de licitação com recursos de gamificação e geolocalização. Isso cria uma experiência interativa, competitiva e centrada no usuário. A plataforma pretende se destacar das soluções existentes no mercado ao integrar algoritmos de licitação em tempo real, sistemas de autenticação segura, mapas interativos e jogos como a caça ao tesouro. A arquitetura definida, que utiliza PHP, um banco de dados relacional e dados em formato JSON, garante uma estrutura modular e escalável adequada ao contexto acadêmico do projeto. A divisão do desenvolvimento em fases semanais permite uma evolução gradual e controlada. Isso assegura que cada componente, desde a gestão de usuários até a integração do SIG com Leaflet.js, seja implementado, testado e otimizado de forma organizada. Do ponto de vista acadêmico, o projeto está diretamente relacionado às unidades curriculares de Programação Web, Algoritmos e Estruturas de Dados, Sistemas de Informação Geográfica, Estatística e Interfaces e Usabilidade. Ele aplica conceitos teóricos em um cenário prático e comercial. Essa integração de diferentes áreas demonstra a capacidade de criar e desenvolver uma solução tecnológica completa, funcional e que atende aos objetivos do curso.
 
 ---
 
-## 📚 13. Bibliografia
+## 14. Bibliografia
 
 eBay. (n.d.). *eBay: Buy & Sell Electronics, Cars, Fashion, Collectibles & More*. https://www.ebay.com
 

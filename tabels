@@ -1,6 +1,6 @@
 -- Tables
 
-create table users (
+create table user (
     usr_id         int not null auto_increment,
     usr_name       varchar(80) not null,              # user name
     usr_email      varchar(120) not null,             # user email
@@ -16,14 +16,14 @@ create table users (
     unique key uq_users_email (usr_email)
 );
 
-create table categories (
+create table categorie (
     cat_id      int not null auto_increment,
     cat_name    varchar(80) not null,
     primary key (cat_id),
     unique key uq_categories_name (cat_name)
 );
 
-create table products (
+create table product (
     prd_id           int not null auto_increment,
     prd_name         varchar(120) not null,
     prd_description  text not null,
@@ -40,14 +40,14 @@ create table products (
     primary key (prd_id)
 );
 
-create table product_images (
+create table product_image (
     img_id         int not null auto_increment,
     img_prd_id     int not null,                      # FK to products
     img_path       varchar(255) not null,
     primary key (img_id)
 );
 
-create table bids (
+create table bid (
     bid_id          int not null auto_increment,
     bid_prd_id      int not null,                     # FK to products
     bid_usr_id      int not null,                     # FK to users

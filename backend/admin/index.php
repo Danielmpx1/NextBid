@@ -36,6 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>NextBid Admin</title>
+    <link rel="icon" href="../../frontend/img/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../frontend/img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../frontend/img/favicon-192.png">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; background: #1a1a2e; display: flex; justify-content: center; align-items: center; height: 100vh; }
@@ -49,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="login-box">
-<img src="nextbid_logo.png" alt="NextBid" style="width: 200px; display: block; margin: 0 auto 25px; mix-blend-mode: lighten;">
+<img src="../../frontend/img/logo-NextBid.png" alt="NextBid" style="width: 200px; display: block; margin: 0 auto 25px; mix-blend-mode: lighten;">
         <?php if ($error): ?>
             <p class="error"><?= $error ?></p>
         <?php endif; ?>

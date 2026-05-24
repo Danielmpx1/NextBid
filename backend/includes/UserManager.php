@@ -119,21 +119,17 @@ class UserManager
             ->execute([$photoPath, $userId]);
     }
 
-    public function getXpHistory(int $userId, int $limit = 50): array
+    // Admin-only: hard delete (relies on DB cascade for FK cleanup)
+    public function adminDelete(int $userId): bool
     {
-        $stmt = $this->pdo->prepare(
-            "SELECT xpl_id, xpl_amount, xpl_reason, xpl_created_at
-             FROM xp_logs
-             WHERE xpl_usr_id = ?
-             ORDER BY xpl_created_at DESC
-             LIMIT $limit"
-        );
-        $stmt->execute([$userId]);
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $this->pdo->prepare("DELETE FROM userss WHERE usr_id = ?")->execute([$userId]);
     }
 
-    public function cleanExpiredTokens(): int
+    // Admin-only: assign role ('admin' or 'normaluser')
+    public function setRole(int $userId, string $role): bool
     {
-        return (int) $this->pdo->exec("DELETE FROM auth_tokens WHERE tok_expires_at < NOW()");
+        if (!in_array($role, ['admin', 'normaluser'], true)) return false;
+        return $this->pdo->prepare("UPDATE userss SET usr_role = ? WHERE usr_id = ?")
+            ->execute([$role, $userId]);
     }
 }
